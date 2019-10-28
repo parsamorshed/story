@@ -6,13 +6,11 @@ import './App.scss'
 export default class App extends Component {
   render() {
     return (
-
         <Router>
           <Switch>
           <Route path="/" exact component={StoryLanding}/>
           <Route path="/storyinput" component={StoryInput}/>
           </Switch>
-
         </Router>
 
 
